@@ -1,0 +1,137 @@
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* banner */
+.banner{
+    background-image:url("../img/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:90vh;
+    text-align: center;
+}
+
+.banner__texto{
+    color:white;
+    padding-top: 15%;
+}
+
+.banner__titulo{
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.banner__subtitulo{
+    font-size:23px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: white;
+    color:purple;/*#7E459B;*/
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.sobre-mim{
+    /* border: 1px solid red;  */
+    margin: 0 15%;
+    text-align: left;
+}
+
+.sobre-mim__descricao, .sobre-mim__habilidades{
+    display:inline-block;
+    width: 35%;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.sobre-mim__habilidades{
+    margin-left: 70px;
+    vertical-align: top;
+}
+
+.sobre-mim__titulo{
+    font-size: 30px;
+    text-align: left;
+    color:#C4C4C4;
+    margin:20px 0;
+}
+
+.destaque{
+    color:purple;
+    font-weight: bold;
+}
+
+.sobre-mim__descricao p{
+    margin-bottom: 20px;
+}
+
+.btn-roxo{
+    border: 1px solid purple; 
+}
+
+.habilidades__titulo{
+    font-size:25px;
+    margin-bottom: 30px;
+}
+
+.habilidades__lista{
+    padding-left: 20px;
+}
+
+/*rodapé*/
+.rodape{
+}
+.rodape__contatos{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 20%;
+    align-items: center;
+}
+
+.contatos__link{
+   background-color: #7e459b;
+   padding: 25px 30px;
+   text-align: center;
+   width: 200px;   
+}
+
+.contatos__link-img{
+    width: 71px;
+    height: 70px;
+    margin-bottom: 15px;   
+}    
+
+.contatos__link h4, .contatos__link p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.contatos__link h4{
+    font-weight: bold;
+}
+
+.contatos__link p{
+    font-weight: lighter;
+}
+
+.copyright{
+    color: #C4C4C4;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}

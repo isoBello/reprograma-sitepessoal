@@ -1,42 +1,16 @@
-______________________________________________________
-
-
-INFOS GERAIS:
-
-
-"HTML é uma das linguagens que utilizamos para desenvolver websites. O acrônimo HTML vem do inglês e significa Hypertext Markup Language ou em português Linguagem de Marcação de Hipertexto. O HTML é a liguagem base da internet"
-
-" CSS - Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. Em vez de colocar a formatação dentro do documento, o CSS cria um link para uma página que contém os estilos. Quando quiser alterar a aparência do portal, basta modificar apenas um arquivo."
-
-Esse link explica bonitinho sobre o META  e utf-8  >>  https://www.microsofttech.com.br/o-que-meta-charset-no-html/
-
-Esse site é muito bom pra pesquisar sobre muitas coisinhas > https://developer.mozilla.org/pt-BR/  
-Outro site bem legal é o W3School : https://www.w3schools.com/html/default.asp
-
-Tag aberta <head>  tag fechada  </head>  (sempre abrir e fechar, mas tem algumas tags que fecham assim  <img> </> )
-
-o H1 é uma tag semântica usada para títulos, ele vai de h1 até h6 (os números mudam o tamanho e a importância do titulo, o 1 é o maior e o restante vai diminuindo h1, h2, h3...)
-
-o html
-DIV é uma tag confusa no começo, mas são como se fossem "caixas" pra vc inserir o conteudo nelas.
-
-
-==================================================================================================
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Minha Primeira página - Jô</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Minha Primeira página - Isa</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section class="banner">
         <div class="banner__titulo">
-            <h1 class="titulo__principal">Oi, eu sou Margaret Hamilton</h1>
+            <h1 class="titulo__principal">Oi, eu sou Isabella Melo</h1>
             <h2 class="titulo__secundario">Conheça mais sobre mim</h2>
+            <a class="btn btn-branco" href="sobre-mim" target="_blank">Veja mais sobre mim</a>
              
         </div>
     </section> 
@@ -48,7 +22,7 @@ DIV é uma tag confusa no começo, mas são como se fossem "caixas" pra vc inser
             <p> Eu sou <span 
             class="destaque">Isabella Melo </span></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus ab maiores voluptas! Facilis deserunt laboriosam consequatur dicta qui nostrum ab, laudantium cupiditate dignissimos, veniam iusto illo recusandae corrupti id!</p>
-            <a class="btn btn-roxo" href="curriculo.pdf" target="_blank">Veja meu CV</a>
+            <a class="btn btn-roxo" href="curriculo_IsabellaFreitas.pdf" target="_blank">Veja meu CV</a>
         </div>
 
         <div class="sobre-mim__habilidades">
@@ -68,25 +42,25 @@ DIV é uma tag confusa no começo, mas são como se fossem "caixas" pra vc inser
     
     <section class="rodape">
         <div class="rodape__contatos">
-            <a class="contatos__link" href="#" target="_blank">
+            <a class="contatos__link" href="https://www.facebook.com/bellssq" target="_blank">
                 <img class="contatos__link-img" src="./img/facebook.png" alt="Link Facebook">
                 <h4>Facebook</h4>
-                <p>/MargaretHamilton</p>
+                <p>/IsabellaMelo</p>
             </a>
-            <a class="contatos__link" href="#" target="_blank">
+            <a class="contatos__link" href="https://www.linkedin.com/in/isabella-melo-freitas/" target="_blank">
                 <img class="contatos__link-img" src="./img/in.png" alt="Link Linkedin">
                 <h4>Linkedin</h4>
-                <p>/MargaretHamilton</p>
+                <p>/IsabellaMelo</p>
             </a>
-            <a class="contatos__link" href="#" target="_blank"
+            <a class="contatos__link" href="https://twitter.com/isabellls_" target="_blank">
                 <img class="contatos__link-img" src="./img/twitter.png" alt="Link Twitter">
                 <h4>Twitter</h4>
-                <p>/MargaretHamilton</p>
+                <p>/IsabellaMelo</p>
             </a>
-            <a class="contatos__link" href="#" target="_blank">
+            <a class="contatos__link" href="https://github.com/isoBello/" target="_blank">
                 <img class="contatos__link-img" src="./img/github.png" alt="Link GitHub">
                 <h4>GitHub</h4>
-                <p>/MargaretHamilton</p>
+                <p>/IsabellaMelo</p>
             </a>
         </div>
         <div>
@@ -94,17 +68,4 @@ DIV é uma tag confusa no começo, mas são como se fossem "caixas" pra vc inser
         </div>
     </section>
 </body>
-</html>*{
-    box-sizing: border-box;
-    margin:0;
-}
-
-body{
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
-}
-
-.banner{
-    background-image: url('../img/img_banner-bg.png');
-    background-size: cover;
-    height: 100vh;
-}
+</html>
