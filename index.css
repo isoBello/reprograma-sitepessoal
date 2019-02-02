@@ -1,0 +1,86 @@
+//* Geral */
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* banner */
+.banner{
+    background-image:url("../img/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:90vh;
+    text-align: center;
+}
+
+.banner__texto{
+    color:white;
+    padding-top: 15%;
+}
+
+.banner__titulo{
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.banner__subtitulo{
+    font-size:23px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: white;
+    color:purple;/*#7E459B;*/
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sobre-mim{
+    border: 1px solid red; 
+    margin: 0 5%;
+    text-align: center;
+}
+
+.sobre-mim__descricao, .sobre-mim__habilidades{
+    border: 1px solid blue; 
+    display:inline-block;
+    width: 40%;
+    width: 45%;
+    font-size: 16px;
+    text-align: left;
+}
+.sobre-mim__habilidades{
+    border: 1px solid green; 
+}
+.sobre-mim__titulo{
+    font-size: 40px;
+    text-align: left;
+    color: #c4c4c4;
+    margin: 20px 0;
+}
+
+.destaque{
+    color: purple;
+    font-weight: bold;
+}
+
+.sobre-mim_descricao p{
+    margin-bottom: 20px;
+}
+
+.btn-roxo{
+    border: 1px solid purple;
+}
